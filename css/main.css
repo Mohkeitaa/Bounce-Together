@@ -186,11 +186,13 @@ button{
 .display-table{
     width: 100%;
     height: 100%;
+    text-align: center;
     display: table;
 }
 .table-cell{
     display: table-cell;
     vertical-align: middle;
+
 }
 .overlay{
     width: 100%;
@@ -547,28 +549,47 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 /* ==========================================================================
    3.0 Slider Section
    ========================================================================== */
-.slider-section{}
+.slider-section{
+
+}
 .slider-text {
     width: 100%;
     text-align: center;
+
 }
 .slider-text h1{
     font-size: 50px;
     font-weight: 700;
-    color: #fff;
+    color: white;
     line-height: 1.2;
+
 }
-.slider-text h5{
-    font-weight: 700;
-    color: #ddd;
+.slider-text h3{
+  background-color:
+    font-weight:bold;
+    color: white;
+    background: rgba(0,0,255,.7);
+    display: inline;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding-left: .3em;
+    padding-right: .3em;
 }
 .nivo-caption a{
     display: inline-block!important;
 }
 .slider-text p {
-    color: #ddd;
+font-family: lora;
+    color:;
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 150px;
+    font-weight: bolder;
+    background: rgba(0,0,255,.7);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    padding-left: .3em;
+    padding-right: .3em;
+
 }
 .slider-wrapper {
     position: relative;
@@ -920,6 +941,34 @@ text-align: justify;
     color: #f8b864;
     margin-right: 10px;
 }
+/* --------------------------------------------------------------
+BLOG SECTION____________________________________________________
+ */
+.blog-logo-img{
+  text-align: center;
+  margin-top: 5%;
+  padding-left: 15%;
+}
+.blog-header{
+  text-align: center;
+}
+.blog-quote{
+  text-align: center;
+  font-weight: lighter;
+  color: grey;
+  font-family: italic;
+}
+.day-title{
+  text-align: center;
+  text-decoration: underline;
+  margin: 5rem;
+}
+#blog-body{
+  text-align: center;
+  padding: 2rem;
+
+}
+
 
 
 /* ==========================================================================
@@ -970,7 +1019,7 @@ text-align: justify;
     top: 0;
     overflow: hidden;
 }
-.event-details{
+{
     background-color: #fafafa;
     padding: 30px 15px;
     border: 1px dashed #ddd;
